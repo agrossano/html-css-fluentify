@@ -138,37 +138,45 @@ header img {
 .row3 {
   width: 100%;
   margin: 0 auto;
-  padding-top:20px;
+  text-align: center;
   background-color: #fff;
-
+  padding-left: 350px;
 }
 
-.row3-images {
-  width: 28%;
-  margin: 0 auto;
+.row3 .col {
+  width: 23%;
+  float:left;
+  margin:20px;
 }
 
 .row3 img {
-
+  width: auto;
   height: 160px;
-  text-align: center;
+  margin-bottom: 55px;
 }
 
-.row3:after {
+
+.row3::after {
   content: '';
   display: table;
   clear: both;
 }
 
-
-#profile {
-  float: left;
+.col h6 {
+  color: #7fb802;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
-#computer {
-  float: left;
+
+
+.col p {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 300;
 }
 
-#doc {
-  float: left;
+.centro {
+  padding-top:25px;
 }
