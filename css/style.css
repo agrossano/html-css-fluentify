@@ -144,25 +144,40 @@ header img {
 
 
 .row3 {
+  width: 75%;
+  margin: 0 auto;
   padding-top: 30px;
   text-align: center;
   background-color: #fff;
+  position: relative;
+}
+
+.layover{
+  position: absolute;
+  top: 0px;
+  left: -16.8%;
+  width: 99.3vw;
+  height: 100%;
+  z-index: -1;
+  background-color: #fff;
+
 }
 
 .column-left{
     float: left;
-    width: 33%;
+    width: 25%;
+
     }
 
 
 .column-right{
     float: right;
-    width: 33%;
+    width: 25%;
 
     }
 .column-center{
     display: inline-block;
-    width: 33%;
+    width: 25%;
     }
 
 .row3 img {
