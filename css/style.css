@@ -15,7 +15,12 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
+}
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 header {
@@ -58,7 +63,6 @@ header {
   border-radius: 5px;
   padding: 8px 25px;
   margin-left: 5px;
-
 }
 
 #btn2 {
@@ -69,18 +73,11 @@ header {
   color: #fff;
 }
 
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
 
 header img {
   width: 120px;
-  margin-left: 20px;
   float: left;
 }
-
 
 
 .row {
@@ -94,11 +91,8 @@ header img {
   width: 800px;
   color: #fff;
   float: left;
-  /* margin: 90px 0 120px 100px; */
   padding-left:280px;
   margin-top: 9%;
-  /* margin-left: 10% */
-
 }
 
 .row img {
@@ -107,12 +101,6 @@ header img {
   float: right;
 }
 
-
-.row::after {
-  content: '';
-  display: table;
-  clear: both;
-}
 
 .row2 {
   text-align: center;
@@ -135,14 +123,6 @@ header img {
   margin-bottom: 11px;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-
-}
-
-
 .row3 {
   width: 75%;
   margin: 0 auto;
@@ -160,37 +140,29 @@ header img {
   height: 100%;
   z-index: -1;
   background-color: #fff;
-
 }
 
 .column-left{
-    float: left;
-    width: 25%;
-
-    }
+  float: left;
+  width: 25%;
+}
 
 
 .column-right{
-    float: right;
-    width: 25%;
+  float: right;
+  width: 25%;
+}
 
-    }
 .column-center{
-    display: inline-block;
-    width: 25%;
-    }
+  display: inline-block;
+  width: 25%;
+}
 
 .row3 img {
   width: auto;
   height: 160px;
   margin-bottom: 55px;
-  }
-
-.row3::after {
-  content: '';
-  display: table;
-  clear: both;
-  }
+}
 
 .row3 h6 {
   color: #7fb802;
@@ -205,7 +177,6 @@ header img {
   font-weight: 300;
 }
 
-
 .column4 {
   float: left;
   width: 50%;
@@ -213,12 +184,6 @@ header img {
   background-color: #fff;
 }
 
-
-.row4:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .column4 img {
   width: auto;
@@ -250,18 +215,7 @@ header img {
   background-color: #0d325a;
 }
 
-.column5 {
-  float: left;
-  width: 50%;
-  padding-top: 150px;
-}
 
-
-.row5:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .column5 img {
   width: auto;
@@ -278,7 +232,6 @@ header img {
 
 .onetoone {
   color: #f8b71c;
-
 }
 
 .column5 p {
